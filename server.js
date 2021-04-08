@@ -26,7 +26,7 @@ axios
     console.log("--- data req finished ---");
   });
 
-app.get("/employees", function (req, res) {
+app.get("/", function (req, res) {
   page = req.query.page;
   limit = req.query.limit;
   totalEmployees = data.length;
